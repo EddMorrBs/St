@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things x Brawl Stars</title>
+    <style>
+        :root {
+            --st-red: #e50914;
+            --st-black: #050505;
+            --st-gray: #1f1f1f;
+        }
+
+        body {
+            font-family: 'Oswald', sans-serif;
+            background-color: var(--st-black);
+            color: white;
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+
+        /* Навігація */
+        nav {
+            background: rgba(0,0,0,0.9);
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid var(--st-red);
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        nav a:hover { color: var(--st-red); }
+
+        header {
+            height: 400px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.5), var(--st-black)), 
+                        url('https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=2070');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        section { padding: 80px 15%; border-bottom: 1px solid #333; }
+
+        h1 { font-size: 3.5rem; color: var(--st-red); margin-bottom: 10px; }
+        h2 { font-size: 2.5rem; color: var(--st-red); margin-bottom: 30px; }
+
+        .card {
+            background: var(--st-gray);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 6px solid var(--st-red);
+            margin-bottom: 20px;
+        }
+
+        /* Стиль для Бравла */
+        .brawl-box {
+            background: linear-gradient(135deg, #2b1055, #7a1b1b);
+            padding: 30px;
+            border-radius: 20px;
+            border: 3px solid #ffce4b;
+        }
+
+        .skin-item {
+            font-size: 1.3rem;
+            margin: 15px 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .skin-item::before {
+            content: '⭐';
+            margin-right: 15px;
+        }
+
+        .highlight { color: #ffce4b; font-weight: bold; }
+
+        /* Едді Зона */
+        .eddie-section {
+            background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+            text-align: center;
+        }
+
+        .guitar-icon { font-size: 50px; display: block; margin-bottom: 20px; }
+
+        footer { text-align: center; padding: 30px; opacity: 0.6; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Головна</a>
+    <a href="#early">1-3 Сезони</a>
+    <a href="#late">4-5 Сезони</a>
+    <a href="#collab">Brawl & Мерч</a>
+    <a href="#eddie">Едді</a>
+</nav>
+
+<header id="home">
+    <h1>STRANGER THINGS</h1>
+    <p>Ласкаво просимо до Хоукінса. Світ вже не буде таким, як раніше.</p>
+</header>
+
+<section id="early">
+    <h2>Минуле Хоукінса (Сезони 1-3)</h2>
+    <div class="card">
+        <h3>Сезон 1-2</h3>
+        <p>Все почалося зі зникнення Вілла та появи дівчинки з татуюванням "011". Ми дізналися про Демогоргона та жахливий Виворіт.</p>
+    </div>
+    <div class="card">
+        <h3>Сезон 3</h3>
+        <p>Яскраве літо 1985-го. Торговий центр "Старкорт" стає епіцентром битви з Істязателем Розуму. Смерть, яку ми не забудемо.</p>
+    </div>
+</section>
+
+<section id="late">
+    <h2>Вирішальна Битва (Сезони 4-5)</h2>
+    <div class="card">
+        <h3>Сезон 4</h3>
+        <p>Векна починає своє полювання. Найпотужніший сезон, де герої розділені, але об'єднані однією метою — зупинити прокляття.</p>
+    </div>
+    <div class="card">
+        <h3>Сезон 5</h3>
+        <p>Фінальна глава. Очікуємо епічного завершення історії та останнього протистояння за наше майбутнє.</p>
+    </div>
+</section>
+
+<section id="collab">
+    <h2> Мерч та Колаба з Brawl Stars</h2>
+    <p>Наш одяг — це стиль "Hellfire Club": чорні худі, футболки з гітарами та фірмові кепки.</p>
+    
+    <div class="brawl-box">
+        <h3>Ексклюзивні Скіни Колаборації:</h3>
+        <ul>
+            <li class="skin-item"><span class="highlight">Едді Драко:</span> Напевно, найкращий скін! Драко з гітарою ідеально перевтілюється в Едді Мансона.</li>
+            <li class="skin-item"><span class="highlight">Одинадцята (Лумі):</span> Лумі зі своїми ефектами ідеально передає телекінез Ель.</li>
+            <li class="skin-item"><span class="highlight">Дастін Ніта:</span> Ніта в кепці Дастіна, а замість звичайного ведмедя вона випускає... можливо, Демопса?</li>
+        </ul>
+    </div>
+</section>
+
+<section id="eddie" class="eddie-section">
+    <span class="guitar-icon"></span>
+    <h2>Мій улюблений герой: Едді Мансон</h2>
+    <div style="max-width: 700px; margin: auto; font-size: 1.2rem;">
+        <p>Едді — це душа 4-го сезону. Лідер Hellfire Club, металіст і людина з великим серцем. Його соло на даху трейлера під <b>"Master of Puppets"</b> — це найкрутіший момент в історії серіалів.</p>
+        <p style="color: var(--st-red); font-weight: bold; font-size: 1.5rem;">"MOST METAL EVER!"</p>
+        <p>Він не став тікати. Він прийняв бій як герой. Для нас він завжди буде живим.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Створено фанатом для фанатів. Дивні Дива назавжди!</p>
+</footer>
+
+</body>
+</html>

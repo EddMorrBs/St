@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things | Головна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="active">Про серіал</a>
+        <a href="seasons123.html">Початок (1-3)</a>
+        <a href="seasons45.html">Фінал (4-5)</a>
+        <a href="merch.html">Мерч & Brawl</a>
+        <a href="eddie.html">Eddie Munson</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1 class="logo">STRANGER THINGS</h1>
+            <p class="subtitle">Ласкаво просимо до Гокінза... і того, що під ним.</p>
+        </header>
+
+        <section class="content-block">
+            <h2>Про що серіал?</h2>
+            <p>
+                Все починається в маленькому містечку Гокінс, штат Індіана, у 1980-х роках. 
+                Звичайне життя підлітків руйнується, коли один із них, <span class="highlight">Вілл Байєрс</span>, 
+                таємниче зникає. У пошуках друга вони зустрічають дівчинку з татуюванням «011» на руці, 
+                яка має надприродні здібності.
+            </p>
+            <p>
+                Це історія про справжню дружбу, урядові змови та паралельний вимір, відомий як 
+                <span class="highlight">Виворіт (The Upside Down)</span>. Тут мешкають монстри, 
+                яких діти називають за аналогією з Dungeons & Dragons: Демогоргон, Мозкоплет та Векна.
+            </p>
+        </section>
+
+        <section class="portal-box">
+            <h3>Чому варто дивитися?</h3>
+            <ul>
+                <li>Неймовірна атмосфера 80-х: музика, одяг, аркадні ігри.</li>
+                <li>Сюжет, від якого неможливо відірватися.</li>
+                <li>Найкращий саундтрек (від Кеті Буш до Metallica).</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
